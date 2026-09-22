@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AuraDesk | Ambient AI Companion</title>
+    <meta name="description" content="AuraDesk is a privacy-first AI desktop companion optimized for Snapdragon NPU, offering gesture control and autonomous wellness tracking.">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="glow-bg"></div>
+    <div class="grid-bg"></div>
+
+    <nav class="navbar">
+        <div class="logo">AuraDesk.</div>
+        <a href="https://github.com/shriya-0802/AuraDesk-An-Always-On-Ambient-AI-Companion-for-Snapdragon-PCs" class="btn btn-outline" target="_blank">View GitHub</a>
+    </nav>
+
+    <main>
+        <section class="hero reveal">
+            <div class="hero-content">
+                <div class="badge">Built for Snapdragon® NPU</div>
+                <h1>Your PC, <br><span class="text-gradient">Now Context-Aware.</span></h1>
+                <p class="subtitle">A real-time, privacy-first AI desktop companion that runs entirely on the edge. AuraDesk understands your cognitive state and gestures to autonomously adapt your computing environment.</p>
+                
+                <div class="cta-group">
+                    <a href="#features" class="btn btn-primary">Explore Features</a>
+                    <a href="#deploy" class="btn btn-secondary">Deployment</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="glass-panel main-mockup">
+                    <div class="mockup-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                    </div>
+                    <div class="mockup-body">
+                        <h3>Telemetry Engine Active</h3>
+                        <div class="stat-row">
+                            <span>Stress Level</span>
+                            <div class="progress-bar"><div class="fill" style="width: 45%;"></div></div>
+                        </div>
+                        <div class="stat-row">
+                            <span>Fatigue</span>
+                            <div class="progress-bar"><div class="fill warning" style="width: 75%;"></div></div>
+                        </div>
+                        <div class="stat-row">
+                            <span>Faces Detected</span>
+                            <span class="value">1 (Secure)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <h2 class="section-title reveal">Unprecedented <span class="text-gradient">Accessibility</span></h2>
+            
+            <div class="feature-grid">
+                <div class="feature-card glass-panel reveal">
+                    <div class="card-icon">🛡️</div>
+                    <h3>Privacy Guardian</h3>
+                    <p>Designed for enterprise security in public spaces. The AI accurately counts faces in real-time. If shoulder surfing is detected, it instantly overlays a massive privacy screen warning to protect your sensitive data.</p>
+                </div>
+
+                <div class="feature-card glass-panel reveal" style="transition-delay: 100ms;">
+                    <div class="card-icon">🧠</div>
+                    <h3>Autonomous Wellness (AWA)</h3>
+                    <p>Acting as an "Executive Function" assistant for neurodivergent users (ADHD/focus disorders), AuraDesk tracks sustained stress and fatigue. It autonomously intervenes by enabling Do Not Disturb and toggling Dark Mode to reduce cognitive load.</p>
+                </div>
+
+                <div class="feature-card glass-panel reveal" style="transition-delay: 200ms;">
+                    <div class="card-icon">🖐️</div>
+                    <h3>Motor-Accessible Gestures</h3>
+                    <p>Control your entire OS hands-free. Perfect for users with physical motor impairments. Use a fist to take screenshots, an open palm to control media, or swipe gestures to seamlessly switch virtual desktops.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="deploy" class="deployment reveal">
+            <div class="deploy-content glass-panel">
+                <h2>Standalone Edge Deployment</h2>
+                <p>Traditional AI apps rely on the cloud, introducing massive privacy risks for a webcam app. AuraDesk is different.</p>
+                <ul class="check-list">
+                    <li><strong>Zero Cloud Dependencies:</strong> Everything runs locally on your PC.</li>
+                    <li><strong>Optimized for Edge:</strong> Designed to run on the Snapdragon NPU.</li>
+                    <li><strong>One-Click Native App:</strong> Using our custom build script, the entire architecture compiles into a single standalone `.exe` (Windows) or `.app` (macOS).</li>
+                </ul>
+                <a href="https://github.com/shriya-0802/AuraDesk-An-Always-On-Ambient-AI-Companion-for-Snapdragon-PCs" class="btn btn-primary" target="_blank">Get the Code</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 AuraDesk. Built for the Snapdragon Hackathon.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

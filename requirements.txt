@@ -1,0 +1,17 @@
+# AuraDesk - Dependencies
+# Core UI
+PyQt6>=6.5.0
+
+# Computer Vision & Camera
+opencv-python>=4.8.0
+numpy>=1.24.0
+ai-edge-litert>=2.2.0
+
+# AI Runtime (CPU for dev; QNN EP for Snapdragon deployment)
+onnxruntime>=1.16.0
+
+# Real-time charting
+pyqtgraph>=0.13.0
+
+# System control
+screeninfo>=0.8.0
